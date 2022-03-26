@@ -1,0 +1,21 @@
+name: gamja
+version: '${version}'
+main: roto.win.gamjaserver.GamjaServer
+api-version: 1.18
+description: server only for gamja-server
+commands:
+  rules:
+    description: 규칙을 확인합니다.
+    usage: /rules
+    aliases:
+      - 규칙
+      - rule
+      - 서버규칙
+  setmotd:
+    description: 서버 입장시 표시되는 메세지를 설정합니다.
+    usage: /setmotd <메세지>
+    permission: gamja.setmotd
+
+permissions:
+  gamja.setmotd:
+    default: op
