@@ -15,15 +15,15 @@ public class JoinQuitListener implements Listener {
     private final Component header = MiniMessage.miniMessage().deserialize("""
             
             
-            <color:#ff711f><b>감자야생 (one.il3.cc)</b></color>
+            <b><gradient:#ff711f:#ffbc63>감자야생 (one.il3.cc)</gradient></b>
             <color:#b8b8b8>디스코드: https://discord.gg/WU4FjHk</color>
             
             """);
     private final Component footer = MiniMessage.miniMessage().deserialize("""
             
             
-            <color:#cfc851>본 서버는 Minehub의 무료 호스팅 서비스를 이용중입니다.
-            https://minehub.kr/</color>
+            <color:#cfc851>본 서버는 <u>Minehub</u>의 무료 호스팅 서비스를 이용중입니다.
+            <u>https://minehub.kr/</u></color>
             
             """);
 
