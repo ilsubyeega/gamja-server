@@ -1,6 +1,6 @@
 name: gamja
 version: '${version}'
-main: roto.win.gamjaserver.GamjaServer
+main: win.roto.gamjaserver.GamjaServer
 api-version: 1.18
 description: server only for gamja-server
 commands:
